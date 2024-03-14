@@ -59,7 +59,7 @@ module ripple_carry_adder_4_bit_tb();
 	wire carry;
 	
 	//Instantiation
-	ripple_carry_adder_4_bit RCA(.A(num1),.B(num2),.Sum(Sum),.C4(carry));
+	proj1 RCA(.A(num1),.B(num2),.Sum(Sum),.C4(carry));
 	integer countA,countB;
 	
 	//Test Cases
